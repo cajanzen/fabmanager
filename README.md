@@ -26,7 +26,7 @@ docker build -t yourname/fabmanager
 
 # then run the container:
 ```
-docker run -it -v $(pwd):/code -w /code -p 8080:8080  yourname/fabmanager
+docker run -it -v $(pwd):/code -w /code -p 8080:8080  yourname/fabmanager .
 ```
 
 # and in the container... 
